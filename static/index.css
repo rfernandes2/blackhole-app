@@ -8,8 +8,8 @@
 /* Body Styling */
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    background-color: #f9f9f9;
-    color: #121212;
+    background-color: #121212; /* Deep black background for Blackhole theme */
+    color: #e0e0e0; /* Light gray text for contrast */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,13 +22,13 @@ body {
 .container {
     max-width: 650px;
     width: 100%;
-    background-color: #ffffff;
-    border-radius: 20px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    background-color: #1a1a1a; /* Dark container */
+    border-radius: 20px; /* Soft rounded corners */
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3); /* Stronger shadow for depth */
     padding: 50px;
     text-align: center;
     overflow: hidden;
-    border: 1px solid #ddd;
+    border: 1px solid #333; /* Dark border for contrast */
 }
 
 /* Header */
@@ -37,16 +37,16 @@ header {
 }
 
 header h1 {
-    font-size: 3.5rem;
-    color: #121212;
-    font-weight: 700;
-    letter-spacing: -1px;
+    font-size: 3.5rem; /* Larger header for emphasis */
+    color: #fff; /* White color for contrast */
+    font-weight: 700; /* Bold text for prominence */
+    letter-spacing: -1px; /* Tighter letter spacing for sleekness */
     margin-bottom: 15px;
 }
 
 header .tagline {
     font-size: 1.3rem;
-    color: #555;
+    color: #bbb; /* Lighter gray for subtitle */
     font-weight: 300;
     margin-bottom: 30px;
 }
@@ -63,23 +63,23 @@ header .tagline {
     width: 85%;
     padding: 15px;
     font-size: 1.2rem;
-    border: 1px solid #ccc;
+    border: 1px solid #444;
     border-radius: 12px;
-    background-color: #f5f5f5;
-    color: #121212;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    background-color: #333;
+    color: #e0e0e0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 .form-input:focus {
-    border-color: #2196f3;
-    box-shadow: 0 0 8px rgba(33, 150, 243, 0.2);
+    border-color: #9c27b0; /* Purple focus color */
+    box-shadow: 0 0 8px rgba(156, 39, 176, 0.2); /* Purple glow */
 }
 
 .form-button {
     width: 85%;
     padding: 14px;
-    background-color: #2196f3;
+    background-color: #9c27b0; /* Purple color */
     color: #fff;
     border: none;
     border-radius: 12px;
@@ -89,15 +89,15 @@ header .tagline {
 }
 
 .form-button:hover {
-    background-color: #1976d2;
-    transform: translateY(-2px);
+    background-color: #7b1fa2; /* Darker purple on hover */
+    transform: translateY(-2px); /* Subtle hover lift */
 }
 
 /* Loader */
 .loader {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #2196f3;
+    color: #9c27b0; /* Purple loader text */
     margin-top: 20px;
     animation: fadeInOut 1.5s infinite ease-in-out;
 }
@@ -122,20 +122,21 @@ header .tagline {
     max-width: 240px;
     height: auto;
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
 }
 
 .results img:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-    filter: brightness(0.95);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+    filter: brightness(1.1);
 }
 
+/* Download Button Styling */
 #downloadBtn {
     width: 85%;
     padding: 14px;
-    background-color: #2196f3;
+    background-color: #9c27b0; /* Purple color */
     color: #fff;
     border: none;
     border-radius: 12px;
@@ -146,13 +147,13 @@ header .tagline {
 }
 
 #downloadBtn:hover {
-    background-color: #1976d2;
+    background-color: #7b1fa2; /* Darker purple on hover */
     transform: translateY(-2px);
 }
 
 /* Footer */
 footer {
     font-size: 1.1rem;
-    color: #555;
+    color: #bbb;
     margin-top: 40px;
 }
